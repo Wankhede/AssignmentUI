@@ -22,12 +22,12 @@ const App = () => {
            <Route exact path='/cart' component={Cart}></Route>
            <Route exact path='/:book' component={Product}></Route>
            <Route exact path='/list/:id' component={ProductList}></Route>
-           
+
            {/* <Route exact path='/contact' component={Contact}></Route> */}
          </Switch>
        </div>
     </Router>
-);
+  );
 };
 
 export default App;
